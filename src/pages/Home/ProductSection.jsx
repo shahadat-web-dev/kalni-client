@@ -21,8 +21,8 @@ const ProductSection = () => {
 
 
     return (
-        <div className='w-11/12 mx-auto my-20 py-10'>
-            <div className='flex bg-white justify-between p-2 rounded-md mb-8'>
+        <div className='w-10/12 mx-auto my-20 py-10'>
+            <div className='flex bg-white justify-between p-3 rounded-md mb-8'>
                 <h1 className='text-2xl font-bold'>Product Section</h1>
                 <h1 className='flex items-center font-semibold gap-2'>View All Products <IoIosArrowForward></IoIosArrowForward></h1>
             </div>
@@ -86,7 +86,7 @@ const ProductSection = () => {
                         </figure>
                         <div className="space-y-3">
                             <p className='font-bold'>Exploring the Intricate Art of Dressmaking and How Fashion Shapes Personal Identity</p>
-                            <h1 className='text-gray-500 font-semibold'>Men's Fashion</h1>
+                            <h1 className='text-gray-500 font-semibold'>Women's Fashion</h1>
                             <div className='flex gap-4 items-center'>
                                 <h1 className='text-xl font-bold text-red-600'>$800.80</h1>
                                 <h1 className='text-gray-400 text-xs'>$800.00</h1>

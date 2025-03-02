@@ -4,8 +4,8 @@ import { CiHeart, CiMenuBurger, CiSearch, CiShuffle, CiUser } from 'react-icons/
 import { FaPercentage } from 'react-icons/fa';
 const Navbar = () => {
     return (
-        <div className='w-10/12 mx-auto'>
-            <div className='flex flex-col  md:flex-row lg:flex-row justify-between gap-4 '>
+        <div>
+            <div className='w-10/12 mx-auto flex flex-col  md:flex-row lg:flex-row justify-between gap-4 '>
 
                 {/* LEFT SIDE */}
                 <div className='lg:w-1/2 flex justify-between'>
@@ -59,7 +59,9 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className='mt-4 lg:flex  justify-between items-center hidden font-semibold'>
+            <div className="divider"></div>
+
+            <div className='w-10/12 mx-auto mt-4 lg:flex  justify-between items-center hidden font-semibold'>
                 <h1 className='flex items-center gap-1'><CiMenuBurger></CiMenuBurger>Browse All Categories</h1>
                 <h1><select className="select select-ghost w-full max-w-xs">
                     <option disabled selected>Home</option>
