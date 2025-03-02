@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <div>
             <div className='bg-[#1D2939] text-white'>
-                <div className='flex justify-between w-9/12 mx-auto p-4'>
+                <div className='flex flex-col lg:flex-row gap-4 justify-between w-9/12 mx-auto p-4'>
                     <div className='flex items-center gap-4'>
                         <FaCarSide size={40}></FaCarSide>
                         <div>

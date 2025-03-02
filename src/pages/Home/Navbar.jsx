@@ -9,7 +9,7 @@ const Navbar = () => {
 
                 {/* LEFT SIDE */}
                 <div className='lg:w-1/2 flex justify-between'>
-                    <a className="text-xl">Kalni</a>
+                    <a className="text-3xl font-bold">Kalni</a>
                     <div>
                         <div className='flex md:hidden lg:hidden'>
                             <CiMenuBurger size={30}></CiMenuBurger>
@@ -59,7 +59,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className='mt-4 lg:flex  justify-between items-center hidden'>
+            <div className='mt-4 lg:flex  justify-between items-center hidden font-semibold'>
                 <h1 className='flex items-center gap-1'><CiMenuBurger></CiMenuBurger>Browse All Categories</h1>
                 <h1><select className="select select-ghost w-full max-w-xs">
                     <option disabled selected>Home</option>
