@@ -34,7 +34,7 @@ const BestPrice = () => {
             <div className='flex flex-col lg:flex-row justify-between gap-10'>
 
                 {/* IMAGE */}
-                <div className='w-1/5 border'>
+                <div className='lg:w-1/5 border'>
                     <div className='bg-[#FFEFE8]'>
 
                     </div>
@@ -42,7 +42,7 @@ const BestPrice = () => {
 
 
                 {/* CAROUSEL */}
-                <div className='w-3/4 border-2'>
+                <div className='lg:w-3/4 border-2'>
                     <Swiper
                         // spaceBetween={30}
                         // slidesPerView={4}
