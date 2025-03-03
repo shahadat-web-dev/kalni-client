@@ -8,6 +8,12 @@ import { HashNavigation, Navigation, Pagination } from 'swiper/modules';
 
 
 import img1 from '../../assets/images/bow-ite.jpg'
+import img2 from '../../assets/images/shirt.jpg'
+import img3 from '../../assets/images/Girls-tops.jpg'
+import img4 from '../../assets/images/short.webp'
+import img5 from '../../assets/images/black.webp'
+
+
 import { FiShoppingCart } from 'react-icons/fi';
 
 const BestPrice = () => {
@@ -64,7 +70,7 @@ const BestPrice = () => {
 
 
                         <SwiperSlide data-hash="slide2">
-                            <div className=" h-auto w-72 bg-white space-y-4 p-3 group rounded-md">
+                            <div className=" h-auto w-72 bg-white space-y-4 p-3 rounded-md">
                                 <figure>
                                     <img
                                         className='h-52 w-full rounded-md'
@@ -78,7 +84,7 @@ const BestPrice = () => {
                                         <h1 className='text-xl font-bold text-red-600'>$800.80</h1>
                                         <h1 className='text-gray-400 text-xs'>$800.00</h1>
                                     </div>
-                                    <button className='btn btn-primary border-none w-full group-hover:bg-red-500'><FiShoppingCart></FiShoppingCart>Add to Cart</button>
+                                    <button className='btn btn-primary border-none w-full'><FiShoppingCart></FiShoppingCart>Add to Cart</button>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -87,7 +93,7 @@ const BestPrice = () => {
                                 <figure>
                                     <img
                                         className='h-52 w-full rounded-md'
-                                        src={img1}
+                                        src={img2}
                                         alt="Shoes" />
                                 </figure>
                                 <div className="space-y-3">
@@ -97,7 +103,7 @@ const BestPrice = () => {
                                         <h1 className='text-xl font-bold text-red-600'>$800.80</h1>
                                         <h1 className='text-gray-400 text-xs'>$800.00</h1>
                                     </div>
-                                    <button className='btn btn-primary border-none w-full group-hover:bg-red-500'><FiShoppingCart></FiShoppingCart>Add to Cart</button>
+                                    <button className='btn btn-primary border-none w-full'><FiShoppingCart></FiShoppingCart>Add to Cart</button>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -106,7 +112,7 @@ const BestPrice = () => {
                                 <figure>
                                     <img
                                         className='h-52 w-full rounded-md'
-                                        src={img1}
+                                        src={img3}
                                         alt="Shoes" />
                                 </figure>
                                 <div className="space-y-3">
@@ -116,7 +122,7 @@ const BestPrice = () => {
                                         <h1 className='text-xl font-bold text-red-600'>$800.80</h1>
                                         <h1 className='text-gray-400 text-xs'>$800.00</h1>
                                     </div>
-                                    <button className='btn btn-primary border-none w-full group-hover:bg-red-500'><FiShoppingCart></FiShoppingCart>Add to Cart</button>
+                                    <button className='btn btn-primary border-none w-full'><FiShoppingCart></FiShoppingCart>Add to Cart</button>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -125,7 +131,7 @@ const BestPrice = () => {
                                 <figure>
                                     <img
                                         className='h-52 w-full rounded-md'
-                                        src={img1}
+                                        src={img4}
                                         alt="Shoes" />
                                 </figure>
                                 <div className="space-y-3">
@@ -135,7 +141,7 @@ const BestPrice = () => {
                                         <h1 className='text-xl font-bold text-red-600'>$800.80</h1>
                                         <h1 className='text-gray-400 text-xs'>$800.00</h1>
                                     </div>
-                                    <button className='btn btn-primary border-none w-full group-hover:bg-red-500'><FiShoppingCart></FiShoppingCart>Add to Cart</button>
+                                    <button className='btn btn-primary border-none w-full'><FiShoppingCart></FiShoppingCart>Add to Cart</button>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -144,7 +150,7 @@ const BestPrice = () => {
                                 <figure>
                                     <img
                                         className='h-52 w-full rounded-md'
-                                        src={img1}
+                                        src={img5}
                                         alt="Shoes" />
                                 </figure>
                                 <div className="space-y-3">
@@ -154,7 +160,7 @@ const BestPrice = () => {
                                         <h1 className='text-xl font-bold text-red-600'>$800.80</h1>
                                         <h1 className='text-gray-400 text-xs'>$800.00</h1>
                                     </div>
-                                    <button className='btn btn-primary border-none w-full group-hover:bg-red-500'><FiShoppingCart></FiShoppingCart>Add to Cart</button>
+                                    <button className='btn btn-primary border-none w-full'><FiShoppingCart></FiShoppingCart>Add to Cart</button>
                                 </div>
                             </div>
                         </SwiperSlide>
