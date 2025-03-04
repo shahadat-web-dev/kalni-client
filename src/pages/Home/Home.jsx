@@ -8,10 +8,12 @@ import Footer from './Footer';
 import Deals from './Deals';
 import BlogSection from './BlogSection';
 import SubscribeSection from './SubscribeSection';
+import Heading from './Heading';
 
 const Home = () => {
     return (
         <div className='bg-[#F1F5F6]'>
+            <Heading></Heading>
             <Navbar></Navbar>
             <Banner></Banner>
             <ProductSection></ProductSection>

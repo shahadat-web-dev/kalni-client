@@ -15,7 +15,7 @@ import img2 from '../../assets/images/banner2.png'
 
 const Banner = () => {
     return (
-        <div>
+        <div className='mt-20'>
 
 
             <div className='w-10/12 mx-auto'>
@@ -33,19 +33,19 @@ const Banner = () => {
                                 </div>
                             </div>
                         </SwiperSlide>
+
                         <SwiperSlide>
                             <div className='w-full flex justify-center'>
                                 <div className='flex flex-col lg:flex-row items-center'>
                                     <div className='lg:w-1/2'>
-                                        <h1 className='lg:text-7xl '>Descover your <br /> perfect stylish and <br /> suited clothed</h1>
+                                        <h1 className='lg:text-7xl '>Descover your  perfect <br /> stylish and  suited clothed</h1>
                                     </div>
                                     <div className='lg:w-1/2 border-2 bg-[#E8EFF9]'>
                                         <img className='h-96' src={img2} alt="" />
                                     </div>
                                 </div>
                             </div>
-                        </SwiperSlide>
-                        
+                        </SwiperSlide>                        
                     </Swiper>
                 </div>
             </div>

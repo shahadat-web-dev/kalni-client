@@ -12,6 +12,7 @@ import img2 from '../../assets/images/shirt.jpg'
 import img3 from '../../assets/images/Girls-tops.jpg'
 import img4 from '../../assets/images/short.webp'
 import img5 from '../../assets/images/black.webp'
+import img6 from '../../assets/images/shirt-removebg-preview.png'
 
 
 import { FiShoppingCart } from 'react-icons/fi';
@@ -34,9 +35,16 @@ const BestPrice = () => {
             <div className='flex flex-col lg:flex-row justify-between gap-10'>
 
                 {/* IMAGE */}
-                <div className='lg:w-1/5 border'>
-                    <div className='bg-[#FFEFE8]'>
-
+                <div className='lg:w-1/5 border h-auto bg-[#FFEFE8]'>
+                    <div>
+                        <div className='space-y-3 p-4'>
+                            <h1 className='text-2xl  font-bold'>Clothing & Apparel</h1>
+                            <h1 className='uppercase'>Sale up to X <span className='text-red-500'>30% off</span></h1>
+                            <button className="btn btn-neutral mt-8">shop now</button>
+                        </div>
+                        <div>
+                            <img className=' -rotate-45' src={img6} alt="" />
+                        </div>
                     </div>
                 </div>
 
@@ -44,8 +52,6 @@ const BestPrice = () => {
                 {/* CAROUSEL */}
                 <div className='lg:w-3/4 border-2'>
                     <Swiper
-                        // spaceBetween={30}
-                        // slidesPerView={4}
                         hashNavigation={{
                             watchState: true,
                         }}

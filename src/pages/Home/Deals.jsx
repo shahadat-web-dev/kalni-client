@@ -15,6 +15,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { FiShoppingCart } from 'react-icons/fi';
 import { IoIosArrowForward } from 'react-icons/io';
+import { FaHeart } from 'react-icons/fa';
 
 
 const Deals = () => {
@@ -56,14 +57,18 @@ const Deals = () => {
 
 
                 <SwiperSlide data-hash="slide2">
-                    <div className=" h-auto w-72 bg-white space-y-4 p-3 group rounded-md">
+                    <div className=" h-auto w-72 bg-white space-y-4 p-3 group rounded-md relative">
                         <figure>
+                            <p className='absolute top-4 text-white right-16 p-1 rounded bg-blue-700'>Add wishlist</p>
+                            <p className='top-4 right-4 absolute bg-blue-700 rounded-full p-1'><FaHeart size={30} color='white'></FaHeart>
+                            </p>
                             <img
                                 className='h-52 w-full rounded-md'
                                 src={img1}
                                 alt="Shoes" />
                         </figure>
                         <div className="space-y-3">
+                            
                             <p className='font-bold'>Exploring the Intricate Art of Dressmaking and How Fashion Shapes Personal Identity</p>
                             <h1 className='text-gray-500 font-semibold'>Men's Fashion</h1>
                             <div className='flex gap-4 items-center'>
