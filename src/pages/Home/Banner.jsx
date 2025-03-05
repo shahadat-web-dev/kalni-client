@@ -19,15 +19,15 @@ const Banner = () => {
 
 
             <div className='w-10/12 mx-auto'>
-                <div>
+                <div className='mb-10'>
                     <Swiper slidesPerView={1} navigation={true} modules={[Navigation]} className="mySwiper">
                         <SwiperSlide>
                             <div className='w-full flex justify-center'>
-                                <div className='flex flex-col lg:flex-row items-center'>
+                                <div className='flex flex-col-reverse lg:flex-row items-center gap-10'>
                                     <div className='lg:w-1/2'>
-                                        <h1 className='lg:text-7xl '>Descover your <br /> perfect stylish and <br /> suited clothed</h1>
+                                        <h1 className='text-5xl lg:text-7xl '>Descover your <br /> perfect stylish and <br /> suited clothed</h1>
                                     </div>
-                                    <div className='lg:w-1/2 border-2 bg-[#E8EFF9]'>
+                                    <div className='w-full lg:w-1/2 border-2 bg-[#E8EFF9]'>
                                         <img className='h-96' src={img1} alt="" />
                                     </div>
                                 </div>
@@ -36,11 +36,11 @@ const Banner = () => {
 
                         <SwiperSlide>
                             <div className='w-full flex justify-center'>
-                                <div className='flex flex-col lg:flex-row items-center'>
+                                <div className='flex flex-col-reverse lg:flex-row items-center gap-10'>
                                     <div className='lg:w-1/2'>
-                                        <h1 className='lg:text-7xl '>Descover your  perfect <br /> stylish and  suited clothed</h1>
+                                        <h1 className='text-5xl lg:text-7xl '>Descover your  perfect <br /> stylish and  suited clothed</h1>
                                     </div>
-                                    <div className='lg:w-1/2 border-2 bg-[#E8EFF9]'>
+                                    <div className='w-full lg:w-1/2 border-2 bg-[#E8EFF9]'>
                                         <img className='h-96' src={img2} alt="" />
                                     </div>
                                 </div>

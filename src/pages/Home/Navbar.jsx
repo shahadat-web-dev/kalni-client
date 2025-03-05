@@ -39,7 +39,7 @@ const Navbar = () => {
 
                 {/* RIGHT SIDE */}
                 <div className='w-full lg:w-1/2 lg:navbar-end'>
-                    <div className='flex gap-1 lg:gap-4 items-center '>
+                    <div className='w-full flex justify-between gap-1 lg:gap-4 items-center '>
                         <div className='flex items-center'>
                             <CiUser size={30}></CiUser>
                             <h1 className='font-bold text-xs'>Login Account</h1>

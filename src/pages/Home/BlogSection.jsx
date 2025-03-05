@@ -10,7 +10,7 @@ const BlogSection = () => {
     return (
         <div className='w-10/12 mx-auto my-20 py-10'>
             <div>
-                <div className='flex bg-white justify-between p-3 rounded-md mb-8'>
+                <div className='flex flex-col lg:flex-row gap-4 bg-white justify-between p-3 rounded-md mb-8'>
                     <h1 className='text-2xl font-bold'>From our Blog</h1>
                     <h1 className='flex items-center font-semibold gap-2'>View All Products <IoIosArrowForward></IoIosArrowForward></h1>
                 </div>

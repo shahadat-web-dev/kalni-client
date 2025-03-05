@@ -22,7 +22,7 @@ const ProductSection = () => {
 
     return (
         <div className='w-10/12 mx-auto my-20 py-10'>
-            <div className='flex bg-white justify-between p-3 rounded-md mb-8'>
+            <div className='flex flex-col lg:flex-row gap-4 bg-white justify-between p-3 rounded-md mb-8'>
                 <h1 className='text-2xl font-bold'>Product Section</h1>
                 <h1 className='flex items-center font-semibold gap-2'>View All Products <IoIosArrowForward></IoIosArrowForward></h1>
             </div>
@@ -58,7 +58,7 @@ const ProductSection = () => {
 
 
                 <SwiperSlide data-hash="slide2">
-                    <div className=" h-auto w-72 bg-white space-y-4 p-3 group rounded-md">
+                    <div className=" h-auto w-full bg-white space-y-4 p-3 group rounded-md">
                         <figure>
                             <img
                                 className='h-52 w-full rounded-md'
@@ -77,7 +77,7 @@ const ProductSection = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide data-hash="slide2">
-                    <div className=" h-auto w-72 bg-white space-y-4  p-3 group rounded-md">
+                    <div className=" h-auto w-full bg-white space-y-4  p-3 group rounded-md">
                         <figure>
                             <img
                                 className='h-52 w-full rounded-md'
@@ -96,7 +96,7 @@ const ProductSection = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide data-hash="slide2">
-                    <div className=" h-auto w-72 bg-white space-y-4  p-3 group rounded-md">
+                    <div className=" h-auto w-full bg-white space-y-4  p-3 group rounded-md">
                         <figure>
                             <img
                                 className='h-52 w-full rounded-md'
@@ -115,7 +115,7 @@ const ProductSection = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide data-hash="slide2">
-                    <div className=" h-auto w-72 bg-white space-y-4  p-3 group rounded-md">
+                    <div className=" h-auto w-full bg-white space-y-4  p-3 group rounded-md">
                         <figure>
                             <img
                                 className='h-52 w-full rounded-md'
@@ -134,7 +134,7 @@ const ProductSection = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide data-hash="slide2">
-                    <div className=" h-auto w-72 bg-white space-y-4  p-3 group rounded-md">
+                    <div className=" h-auto w-full bg-white space-y-4  p-3 group rounded-md">
                         <figure>
                             <img
                                 className='h-52 w-full rounded-md'
@@ -153,7 +153,7 @@ const ProductSection = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide data-hash="slide2">
-                    <div className=" h-auto w-72 bg-white space-y-4  p-3 group rounded-md">
+                    <div className=" h-auto w-full bg-white space-y-4  p-3 group rounded-md">
                         <figure>
                             <img
                                 className='h-52 w-full rounded-md'

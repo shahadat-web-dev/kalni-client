@@ -50,7 +50,7 @@ const BestPrice = () => {
 
 
                 {/* CAROUSEL */}
-                <div className='lg:w-3/4 border-2'>
+                <div className='lg:w-3/4'>
                     <Swiper
                         hashNavigation={{
                             watchState: true,
@@ -76,7 +76,7 @@ const BestPrice = () => {
 
 
                         <SwiperSlide data-hash="slide2">
-                            <div className=" h-auto w-72 bg-white space-y-4 p-3 rounded-md">
+                            <div className="h-auto w-full bg-white space-y-4 p-3 rounded-md">
                                 <figure>
                                     <img
                                         className='h-52 w-full rounded-md'
@@ -95,7 +95,7 @@ const BestPrice = () => {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide data-hash="slide2">
-                            <div className=" h-auto w-72 bg-white space-y-4 p-3 group rounded-md">
+                            <div className=" h-auto w-full bg-white space-y-4 p-3 group rounded-md">
                                 <figure>
                                     <img
                                         className='h-52 w-full rounded-md'
@@ -114,7 +114,7 @@ const BestPrice = () => {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide data-hash="slide2">
-                            <div className=" h-auto w-72 bg-white space-y-4 p-3 group rounded-md">
+                            <div className=" h-auto w-full bg-white space-y-4 p-3 group rounded-md">
                                 <figure>
                                     <img
                                         className='h-52 w-full rounded-md'
@@ -133,7 +133,7 @@ const BestPrice = () => {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide data-hash="slide2">
-                            <div className=" h-auto w-72 bg-white space-y-4 p-3 group rounded-md">
+                            <div className=" h-auto w-full bg-white space-y-4 p-3 group rounded-md">
                                 <figure>
                                     <img
                                         className='h-52 w-full rounded-md'
@@ -152,7 +152,7 @@ const BestPrice = () => {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide data-hash="slide2">
-                            <div className=" h-auto w-72 bg-white space-y-4 p-3 group rounded-md">
+                            <div className=" h-auto w-full bg-white space-y-4 p-3 group rounded-md">
                                 <figure>
                                     <img
                                         className='h-52 w-full rounded-md'

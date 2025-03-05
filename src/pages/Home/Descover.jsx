@@ -13,7 +13,8 @@ const Descover = () => {
                 <div className='bg-[#002A43] lg:w-1/2 p-3 lg:p-8 rounded-md flex flex-col lg:flex-row items-center justify-between'>
                     <div className='space-y-3'>
                         <h1>Don't miss opportunity!</h1>
-                        <h1 className='text-2xl lg:text-4xl'>Discover offer <br /> 2025 collection</h1>
+                        <h1 className='o
+                        text-4xl'>Discover offer <br /> 2025 collection</h1>
                         <h1 className='pt-4 flex items-center gap-2'>shop now <FaArrowRight></FaArrowRight></h1>
                     </div>
                     <div>
@@ -26,7 +27,7 @@ const Descover = () => {
                 <div className='bg-[#6BA9F4] lg:w-1/2 rounded-md p-3 lg:p-8 flex flex-col lg:flex-row items-center justify-between'>
                     <div>
                         <h1>Don't miss opportunity!</h1>
-                        <h1 className='text-2xl lg:text-4xl'>Discover offer <br /> 2025 collection</h1>
+                        <h1 className='text-4xl'>Discover offer <br /> 2025 collection</h1>
                         <h1 className='pt-4 flex items-center gap-2'>shop now <FaArrowRight></FaArrowRight></h1>
                     </div>
                     <div>
